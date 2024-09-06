@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .app-name {
+            font-size: 24px;
+            color: #333;
+        }
+        .wechat-qr {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with App Icon and Name -->
+        <div class="header">
+            <img src="/images/qd.png" alt="App Icon" class="app-icon">
+            <div class="app-name">奇点</div>
+        </div>
+
+        <!-- WeChat QR Code -->
+        <img src="/images/wc.png" alt="WeChat QR Code" class="wechat-qr">
+
+        <div class="footer">
+            Scan the QR code to contact us on WeChat.
+        </div>
+    </div>
+</body>
+</html>
